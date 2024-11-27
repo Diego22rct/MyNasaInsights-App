@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:my_nasa_insights/planetary/presentation/favorites_apod.dart';
+import 'package:my_nasa_insights/planetary/presentation/show_apod.dart';
 import 'package:my_nasa_insights/shared/widgets/home_info.dart';
 
 class HomePage extends StatefulWidget {
@@ -9,7 +11,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<Widget> _pages = const [Placeholder(), HomeInfo(), Placeholder()];
+  final List<Widget> _pages = const [ShowApod(), HomeInfo(), FavoritesApod()];
   int _index = 0;
   @override
   Widget build(BuildContext context) {
