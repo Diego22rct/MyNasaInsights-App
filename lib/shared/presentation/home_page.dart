@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_nasa_insights/planetary/presentation/favorites_apod.dart';
-import 'package:my_nasa_insights/planetary/presentation/show_apod.dart';
+import 'package:my_nasa_insights/planetary/presentation/pages/favorites_apod.dart';
+import 'package:my_nasa_insights/planetary/presentation/pages/show_apod.dart';
 import 'package:my_nasa_insights/shared/widgets/home_info.dart';
 
 class HomePage extends StatefulWidget {
